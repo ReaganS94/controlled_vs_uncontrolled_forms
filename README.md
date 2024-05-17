@@ -50,21 +50,15 @@
 
     3.4 So which one do I use?
 
-FEATURE UNCONTROLLED CONTROLLED
-
-one-time value retrieval (e.g. on submit) ✅ ✅
-
-validating on submit ✅ ✅
-
-instant field validation ❌ ✅
-
-conditionally disabling submit button ❌ ✅
-
-enforcing input format ❌ ✅
-
-several inputs for one piece of data ❌ ✅
-
-dynamic inputs ❌ ✅
+| FEATURE                                   | UNCONTROLLED | CONTROLLED |
+| ----------------------------------------- | ------------ | ---------- |
+| one-time value retrieval (e.g. on submit) | ✅           | ✅         |
+| validating on submit                      | ✅           | ✅         |
+| instant field validation                  | ❌           | ✅         |
+| conditionally disabling submit button     | ❌           | ✅         |
+| enforcing input format                    | ❌           | ✅         |
+| several inputs for one piece of data      | ❌           | ✅         |
+| dynamic inputs                            | ❌           | ✅         |
 
 That should be enough information to finally get started with the exercise!
 
